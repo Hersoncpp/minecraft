@@ -1,5 +1,5 @@
 # Computer Graphics Minecraft Project
-<img width="1279" alt="image" src="overview.png">
+<img width="1279" alt="image" src="./overview.png">
 
 
 ### Required Features
@@ -11,7 +11,7 @@
 
 ### Extra Credit (20 points total)
 - [✅] Time-varying perlin noise (+10): we implemented time varying 2D perlin noise for water texture with flowing effects.
-<img width="1279" alt="image" src="water.png">
+<img width="1279" alt="image" src="./water.png">
 
 - [✅] Hysteresis Thresholding (+5): To ensure that walking back and forth across chunk boundaries doesn't significantly affect performance, I maintain a cache of deleted chunks. Before generating new chunks, I check this cache. The size of this cache is configurable in App.ts, with a default size of 9, which matches the player's set of rendered chunks.
 
