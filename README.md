@@ -16,4 +16,3 @@
 - [✅] Hysteresis Thresholding (+5): To ensure that walking back and forth across chunk boundaries doesn't significantly affect performance, I maintain a cache of deleted chunks. Before generating new chunks, I check this cache. The size of this cache is configurable in App.ts, with a default size of 9, which matches the player's set of rendered chunks.
 
 - [✅] Day Night Cycle (+5): I implemented a simple day and night cycle by adjusting the position of the light source over time, creating a circular movement centered around the player. Additionally, I added variation to the background color, creating a gradient based on the height of the light source to reflect the sky color corresponding to the in-game time. To control the speed of the day/night cycle, I used the LARROW and RARROW keys, which decrease and increase the cycle time by 10 seconds, respectively. The default cycle time is set to 60 seconds, with the minimum cycle time being 10 seconds.
-# minecraft

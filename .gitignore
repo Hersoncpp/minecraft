@@ -1,0 +1,15 @@
+# Ignore build artifacts
+build/
+dist/
+*.exe
+
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore log files
+*.log
+
+# Ignore files with sensitive information
+config.json
